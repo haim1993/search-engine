@@ -37,7 +37,7 @@ th {
 
 #custom-search-input{
     padding: 3px;
-    border: solid 1px #E4E4E4;
+    border: solid 1px #869082;
     border-radius: 6px;
     background-color: #fff;
 }
@@ -66,8 +66,3 @@ th {
 #custom-search-input .glyphicon-search{
     font-size: 23px;
 }
-/*
-.col-centered {
-    float: none;
-    margin: auto;
-}*/

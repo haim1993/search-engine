@@ -32,6 +32,7 @@ $(document).ready(function() {
 
         var $id = $(this).parent().attr('id');
         $("#_id").val($id);
+
         var $active = $(this).parent().children().eq(1).text();
         ($active === 'true') ? $("#isActive option[value='true']").attr("selected", true): $("#isActive option[value='false']").attr("selected", true);
         var $age = $(this).parent().children().eq(2).text();
@@ -67,6 +68,26 @@ $(document).ready(function() {
     function validate() {
         var email = $("#email").val();
         if (validateEmail(email)) {
+            // Get updated values
+            var $_id = $("#_id").val();
+            var $active = $("#isActive").val();
+            var $age = $("#age").val();
+            var $eyeColor = $("#eyeColor").val();
+            var $name = $("#name").val();
+            var $gender = $("input[name='gender']:checked").val();
+            var $company = $("#company").val();
+            var $email = $("#email").val();
+            var $phone = $("#phone").val();
+
+            $("#" + $_id).children().eq(1).text($active);
+            $("#" + $_id).children().eq(2).text($age);
+            $("#" + $_id).children().eq(3).text($eyeColor);
+            $("#" + $_id).children().eq(4).text($name);
+            $("#" + $_id).children().eq(5).text($gender);
+            $("#" + $_id).children().eq(6).text($company);
+            $("#" + $_id).children().eq(7).text($email);
+            $("#" + $_id).children().eq(8).text($phone);
+
             $('#table-info').slideDown();
             $('#column-info').slideUp();
         }
