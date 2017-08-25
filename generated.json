@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "599dd63db46d28789e07fd99",
+    "isActive": true,
+    "balance": "$2,275.35",
+    "age": 22,
+    "eyeColor": "blue",
+    "name": "Emily Wade",
+    "gender": "female",
+    "company": "CYTREK",
+    "email": "emilywade@cytrek.com",
+    "phone": "+1 (930) 497-3510"
+  },
+  {
+    "_id": "599dd63d1393a1117d71f4f1",
+    "isActive": true,
+    "balance": "$1,842.03",
+    "age": 40,
+    "eyeColor": "brown",
+    "name": "Marks English",
+    "gender": "male",
+    "company": "UNEEQ",
+    "email": "marksenglish@uneeq.com",
+    "phone": "+1 (808) 577-3492"
+  },
+  {
+    "_id": "599dd63d2a6ccd040c5b21df",
+    "isActive": true,
+    "balance": "$2,826.12",
+    "age": 20,
+    "eyeColor": "green",
+    "name": "Dionne Bray",
+    "gender": "female",
+    "company": "QUARMONY",
+    "email": "dionnebray@quarmony.com",
+    "phone": "+1 (940) 476-3036"
+  },
+  {
+    "_id": "599dd63d08df0bae63724aeb",
+    "isActive": false,
+    "balance": "$1,919.73",
+    "age": 22,
+    "eyeColor": "green",
+    "name": "Louise Powers",
+    "gender": "female",
+    "company": "TERRAGEN",
+    "email": "louisepowers@terragen.com",
+    "phone": "+1 (890) 459-3822"
+  },
+  {
+    "_id": "599dd63db4758cf652d738bc",
+    "isActive": false,
+    "balance": "$2,271.22",
+    "age": 27,
+    "eyeColor": "green",
+    "name": "Carol Higgins",
+    "gender": "female",
+    "company": "GENMOM",
+    "email": "carolhiggins@genmom.com",
+    "phone": "+1 (957) 498-2743"
+  },
+  {
+    "_id": "599dd63db8c6e3f0b50c55de",
+    "isActive": true,
+    "balance": "$1,214.18",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Wolfe Padilla",
+    "gender": "male",
+    "company": "EMTRAC",
+    "email": "wolfepadilla@emtrac.com",
+    "phone": "+1 (904) 477-2498"
+  },
+  {
+    "_id": "599dd63d9138d00edf00af5e",
+    "isActive": true,
+    "balance": "$2,929.31",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": "Lois Lowery",
+    "gender": "female",
+    "company": "RADIANTIX",
+    "email": "loislowery@radiantix.com",
+    "phone": "+1 (939) 550-2189"
+  },
+  {
+    "_id": "599dd63db8e7e357c9a987d8",
+    "isActive": false,
+    "balance": "$2,471.61",
+    "age": 33,
+    "eyeColor": "blue",
+    "name": "Paulette Dudley",
+    "gender": "female",
+    "company": "ACCUSAGE",
+    "email": "paulettedudley@accusage.com",
+    "phone": "+1 (931) 449-2844"
+  }
+]
